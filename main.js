@@ -10,7 +10,7 @@ window.onload = function () {
 
         // 入力したテキストを取得する
         const val = document.getElementById("inpText");
-        cookie = cookie + "data1=" + val.value;
+        cookie = cookie +　 "data1=1";
         console.log(cookie);
     }
 
