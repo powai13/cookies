@@ -2,6 +2,8 @@
 
 window.onload = function () {
 
+    // cookieが使用できるかどうか
+    console.log(navigator.cookieEnabled);
     let cookie = document.cookie;
     console.log(cookie);
 
